@@ -1,0 +1,27 @@
+targets:
+  - "label"
+  - "node_assignment"
+training_param_grid:
+  batch_size:
+    - 128
+  learning_rate:
+    - 0.001
+  epoch:
+    - 200
+  hidden_size:
+    - 256
+aggr_strategies:
+  - 'pca'
+kfold: 'off'
+overwrite: True
+seeds:
+  - 42
+  - 50
+  - 2024
+  - 4042
+  - 8096
+  - 16000
+  - 32000
+  - 128000
+  - 256000
+  - 512000

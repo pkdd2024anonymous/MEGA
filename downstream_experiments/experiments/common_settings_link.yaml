@@ -1,0 +1,8 @@
+batch_size: 1024 #10240
+neg_rate: 1
+epochs: 200
+patience: 1000
+aggr_strategies:
+  - 'pca'
+overwrite: True
+repeats: 10
